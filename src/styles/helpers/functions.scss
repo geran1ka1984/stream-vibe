@@ -2,7 +2,7 @@
 @use 'sass:math';
 
 @function fluid($max: 100, $min: 10, $isEndOfLaptop: false) {
-  $maxViewportWidth: $container-desktop-width;
+  $maxViewportWidth: $container-desctop-width;
   $minViewportWidth: 390;
 
   @if ($isEndOfLaptop) {
